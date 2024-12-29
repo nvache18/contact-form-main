@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Contact form</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1">Contact us</h1>
+      <div class="d1">
+        <div class="first-name">
+          <p class="h1">First name</p>
+          <input type="text" class="i9" />
+        </div>
+        <div class="last-name">
+          <p class="h1">Last name</p>
+          <input type="text" class="i9" />
+        </div>
+      </div>
+      <div class="Email address">
+        <p class="h1">Email address</p>
+        <input type="text" class="i5" />
+      </div>
+      <div class="query_type">
+        <p class="h1">Query type</p>
+        <div class="main">
+          <div class="d2">
+            <input type="radio" class="i1" id="general" name="choice" />
+            <label for="general">General</label>
+          </div>
+          <div class="d3">
+            <input type="radio" class="i1" id="support" name="choice" />
+            <label for="support">support</label>
+          </div>
+        </div>
+      </div>
+      <div class="msg">
+        <p class="h1">message</p>
+        <input type="text" class="i5" />
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" class="i2" />
+        <p class="h1">I consent to being contacted by the team</p>
+      </div>
+      <button>Submit</button>
+    </div>
+  </body>
+</html>
